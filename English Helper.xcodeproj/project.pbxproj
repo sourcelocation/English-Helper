@@ -3,27 +3,72 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C7B67F42528719A00AEA283 /* WordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B67F32528719A00AEA283 /* WordModel.swift */; };
+		B2D4485BD5DDACC8E547B898 /* Pods_English_Helper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDAB1FEA3571086C4CB8D40 /* Pods_English_Helper.framework */; };
+		CE0DE8DB250BCC3000E89C03 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0DE8DA250BCC3000E89C03 /* CloudKit.framework */; };
+		CE180AFD2523BC780091EA4F /* PremiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE180AFC2523BC780091EA4F /* PremiumViewController.swift */; };
+		CE180B022523BCEE0091EA4F /* SwiftyStoreKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE180B012523BCEE0091EA4F /* SwiftyStoreKit */; };
+		CE221C692520650F00E69AAA /* MagnifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE221C682520650F00E69AAA /* MagnifyView.swift */; };
+		CE959190251D25910064CE0B /* TextDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95918F251D25910064CE0B /* TextDetector.swift */; };
+		CE959199251E3EE20064CE0B /* DetectionResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE959198251E3EE20064CE0B /* DetectionResultsViewController.swift */; };
+		CE9ABEF7250A8665004764DE /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9ABEF6250A8665004764DE /* Translator.swift */; };
+		CE9ABEFB250B52E2004764DE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9ABEFA250B52E2004764DE /* SettingsViewController.swift */; };
 		CEAEFDA125028C8C007EA415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEFDA025028C8C007EA415 /* AppDelegate.swift */; };
 		CEAEFDA325028C8C007EA415 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEFDA225028C8C007EA415 /* SceneDelegate.swift */; };
-		CEAEFDA525028C8C007EA415 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEFDA425028C8C007EA415 /* ViewController.swift */; };
+		CEAEFDA525028C8C007EA415 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEFDA425028C8C007EA415 /* MainViewController.swift */; };
 		CEAEFDA825028C8C007EA415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAEFDA625028C8C007EA415 /* Main.storyboard */; };
 		CEAEFDAA25028C8E007EA415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAEFDA925028C8E007EA415 /* Assets.xcassets */; };
 		CEAEFDAD25028C8E007EA415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAEFDAB25028C8E007EA415 /* LaunchScreen.storyboard */; };
+		CEAEFDB525028FE7007EA415 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEFDB425028FE7007EA415 /* TableViewCell.swift */; };
+		CEAEFDB7250356D8007EA415 /* ButtonWithShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEFDB6250356D7007EA415 /* ButtonWithShadow.swift */; };
+		CEAEFDB9250357D7007EA415 /* AddWordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAEFDB8250357D7007EA415 /* AddWordTableViewCell.swift */; };
+		CEF66DE5252F23F300ACBC66 /* CoolViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF66DE4252F23F300ACBC66 /* CoolViews.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CE0DE8F0250BE0B700E89C03 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		9C7B67F32528719A00AEA283 /* WordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordModel.swift; sourceTree = "<group>"; };
+		AF7C80F3FBE4E79BD0134650 /* Pods-English Helper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-English Helper.release.xcconfig"; path = "Target Support Files/Pods-English Helper/Pods-English Helper.release.xcconfig"; sourceTree = "<group>"; };
+		CDDAB1FEA3571086C4CB8D40 /* Pods_English_Helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_English_Helper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0DE8D8250BCC2D00E89C03 /* English Helper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "English Helper.entitlements"; sourceTree = "<group>"; };
+		CE0DE8DA250BCC3000E89C03 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		CE180AFC2523BC780091EA4F /* PremiumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumViewController.swift; sourceTree = "<group>"; };
+		CE221C682520650F00E69AAA /* MagnifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnifyView.swift; sourceTree = "<group>"; };
+		CE95918F251D25910064CE0B /* TextDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDetector.swift; sourceTree = "<group>"; };
+		CE959198251E3EE20064CE0B /* DetectionResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionResultsViewController.swift; sourceTree = "<group>"; };
+		CE9ABEF6250A8665004764DE /* Translator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translator.swift; sourceTree = "<group>"; };
+		CE9ABEFA250B52E2004764DE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CEA557122514B66600ED5E2B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		CEA557132514B66600ED5E2B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		CEAEFD9D25028C8C007EA415 /* English Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "English Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAEFDA025028C8C007EA415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEAEFDA225028C8C007EA415 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CEAEFDA425028C8C007EA415 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEAEFDA425028C8C007EA415 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		CEAEFDA725028C8C007EA415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEAEFDA925028C8E007EA415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEAEFDAC25028C8E007EA415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEAEFDAE25028C8E007EA415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAEFDB425028FE7007EA415 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		CEAEFDB6250356D7007EA415 /* ButtonWithShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonWithShadow.swift; sourceTree = "<group>"; };
+		CEAEFDB8250357D7007EA415 /* AddWordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordTableViewCell.swift; sourceTree = "<group>"; };
+		CEF66DE4252F23F300ACBC66 /* CoolViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolViews.swift; sourceTree = "<group>"; };
+		E7A6BE25C9643147365EE2F3 /* Pods-English Helper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-English Helper.debug.xcconfig"; path = "Target Support Files/Pods-English Helper/Pods-English Helper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +76,89 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0DE8DB250BCC3000E89C03 /* CloudKit.framework in Frameworks */,
+				CE180B022523BCEE0091EA4F /* SwiftyStoreKit in Frameworks */,
+				B2D4485BD5DDACC8E547B898 /* Pods_English_Helper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6377262813C3992B8BB6A516 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7A6BE25C9643147365EE2F3 /* Pods-English Helper.debug.xcconfig */,
+				AF7C80F3FBE4E79BD0134650 /* Pods-English Helper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE0DE8D9250BCC3000E89C03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE0DE8DA250BCC3000E89C03 /* CloudKit.framework */,
+				CDDAB1FEA3571086C4CB8D40 /* Pods_English_Helper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE180AFB2523BC320091EA4F /* Premium Scene */ = {
+			isa = PBXGroup;
+			children = (
+				CE180AFC2523BC780091EA4F /* PremiumViewController.swift */,
+			);
+			path = "Premium Scene";
+			sourceTree = "<group>";
+		};
+		CE959192251D25A20064CE0B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CEAEFDB6250356D7007EA415 /* ButtonWithShadow.swift */,
+				9C7B67F32528719A00AEA283 /* WordModel.swift */,
+				CEF66DE4252F23F300ACBC66 /* CoolViews.swift */,
+				CEAEFDA025028C8C007EA415 /* AppDelegate.swift */,
+				CEAEFDA225028C8C007EA415 /* SceneDelegate.swift */,
+				CE221C682520650F00E69AAA /* MagnifyView.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CE959197251E3EBA0064CE0B /* Text Detection Scene */ = {
+			isa = PBXGroup;
+			children = (
+				CE9ABEF6250A8665004764DE /* Translator.swift */,
+				CE95918F251D25910064CE0B /* TextDetector.swift */,
+				CE959198251E3EE20064CE0B /* DetectionResultsViewController.swift */,
+			);
+			path = "Text Detection Scene";
+			sourceTree = "<group>";
+		};
+		CE9ABEF8250B52A9004764DE /* Dictionary Scene */ = {
+			isa = PBXGroup;
+			children = (
+				CEAEFDA425028C8C007EA415 /* MainViewController.swift */,
+				CEAEFDB8250357D7007EA415 /* AddWordTableViewCell.swift */,
+				CEAEFDB425028FE7007EA415 /* TableViewCell.swift */,
+			);
+			path = "Dictionary Scene";
+			sourceTree = "<group>";
+		};
+		CE9ABEF9250B52C2004764DE /* Settings Scene */ = {
+			isa = PBXGroup;
+			children = (
+				CE9ABEFA250B52E2004764DE /* SettingsViewController.swift */,
+			);
+			path = "Settings Scene";
+			sourceTree = "<group>";
+		};
 		CEAEFD9425028C8C007EA415 = {
 			isa = PBXGroup;
 			children = (
 				CEAEFD9F25028C8C007EA415 /* English Helper */,
 				CEAEFD9E25028C8C007EA415 /* Products */,
+				CE0DE8D9250BCC3000E89C03 /* Frameworks */,
+				6377262813C3992B8BB6A516 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +173,13 @@
 		CEAEFD9F25028C8C007EA415 /* English Helper */ = {
 			isa = PBXGroup;
 			children = (
-				CEAEFDA025028C8C007EA415 /* AppDelegate.swift */,
-				CEAEFDA225028C8C007EA415 /* SceneDelegate.swift */,
-				CEAEFDA425028C8C007EA415 /* ViewController.swift */,
+				CE0DE8D8250BCC2D00E89C03 /* English Helper.entitlements */,
 				CEAEFDA625028C8C007EA415 /* Main.storyboard */,
+				CE9ABEF8250B52A9004764DE /* Dictionary Scene */,
+				CE9ABEF9250B52C2004764DE /* Settings Scene */,
+				CE959197251E3EBA0064CE0B /* Text Detection Scene */,
+				CE959192251D25A20064CE0B /* Other */,
+				CE180AFB2523BC320091EA4F /* Premium Scene */,
 				CEAEFDA925028C8E007EA415 /* Assets.xcassets */,
 				CEAEFDAB25028C8E007EA415 /* LaunchScreen.storyboard */,
 				CEAEFDAE25028C8E007EA415 /* Info.plist */,
@@ -74,15 +194,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEAEFDB125028C8E007EA415 /* Build configuration list for PBXNativeTarget "English Helper" */;
 			buildPhases = (
+				9ABDE2F2114462A6CF2D1827 /* [CP] Check Pods Manifest.lock */,
 				CEAEFD9925028C8C007EA415 /* Sources */,
 				CEAEFD9A25028C8C007EA415 /* Frameworks */,
 				CEAEFD9B25028C8C007EA415 /* Resources */,
+				CE0DE8F0250BE0B700E89C03 /* Embed App Extensions */,
+				C6882B4A4A06C0217475E34A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "English Helper";
+			packageProductDependencies = (
+				CE180B012523BCEE0091EA4F /* SwiftyStoreKit */,
+			);
 			productName = "English Helper";
 			productReference = CEAEFD9D25028C8C007EA415 /* English Helper.app */;
 			productType = "com.apple.product-type.application";
@@ -94,7 +220,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Матвей Анисович";
 				TargetAttributes = {
 					CEAEFD9C25028C8C007EA415 = {
@@ -104,13 +230,17 @@
 			};
 			buildConfigurationList = CEAEFD9825028C8C007EA415 /* Build configuration list for PBXProject "English Helper" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			developmentRegion = ru;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = CEAEFD9425028C8C007EA415;
+			packageReferences = (
+				CE180B002523BCEE0091EA4F /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */,
+			);
 			productRefGroup = CEAEFD9E25028C8C007EA415 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,14 +263,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9ABDE2F2114462A6CF2D1827 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-English Helper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6882B4A4A06C0217475E34A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-English Helper/Pods-English Helper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-English Helper/Pods-English Helper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-English Helper/Pods-English Helper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEAEFD9925028C8C007EA415 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEAEFDA525028C8C007EA415 /* ViewController.swift in Sources */,
+				CEAEFDA525028C8C007EA415 /* MainViewController.swift in Sources */,
+				CEAEFDB525028FE7007EA415 /* TableViewCell.swift in Sources */,
+				CEF66DE5252F23F300ACBC66 /* CoolViews.swift in Sources */,
+				CEAEFDB7250356D8007EA415 /* ButtonWithShadow.swift in Sources */,
+				CE180AFD2523BC780091EA4F /* PremiumViewController.swift in Sources */,
+				9C7B67F42528719A00AEA283 /* WordModel.swift in Sources */,
+				CEAEFDB9250357D7007EA415 /* AddWordTableViewCell.swift in Sources */,
 				CEAEFDA125028C8C007EA415 /* AppDelegate.swift in Sources */,
+				CE221C692520650F00E69AAA /* MagnifyView.swift in Sources */,
 				CEAEFDA325028C8C007EA415 /* SceneDelegate.swift in Sources */,
+				CE9ABEF7250A8665004764DE /* Translator.swift in Sources */,
+				CE959190251D25910064CE0B /* TextDetector.swift in Sources */,
+				CE9ABEFB250B52E2004764DE /* SettingsViewController.swift in Sources */,
+				CE959199251E3EE20064CE0B /* DetectionResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +334,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CEAEFDA725028C8C007EA415 /* Base */,
+				CEA557122514B66600ED5E2B /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +343,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CEAEFDAC25028C8E007EA415 /* Base */,
+				CEA557132514B66600ED5E2B /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -192,6 +378,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -230,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -252,6 +440,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -282,15 +471,20 @@
 		};
 		CEAEFDB225028C8E007EA415 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A6BE25C9643147365EE2F3 /* Pods-English Helper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "English Helper/English Helper.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = 92S6JX27W2;
 				INFOPLIST_FILE = "English Helper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.exerhythm.English-Helper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -300,15 +494,20 @@
 		};
 		CEAEFDB325028C8E007EA415 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7C80F3FBE4E79BD0134650 /* Pods-English Helper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "English Helper/English Helper.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 12;
 				DEVELOPMENT_TEAM = 92S6JX27W2;
 				INFOPLIST_FILE = "English Helper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.exerhythm.English-Helper";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -338,6 +537,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CE180B002523BCEE0091EA4F /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/bizz84/SwiftyStoreKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.16.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CE180B012523BCEE0091EA4F /* SwiftyStoreKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CE180B002523BCEE0091EA4F /* XCRemoteSwiftPackageReference "SwiftyStoreKit" */;
+			productName = SwiftyStoreKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CEAEFD9525028C8C007EA415 /* Project object */;
 }

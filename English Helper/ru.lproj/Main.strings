@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Word, sentence, English"; ObjectID = "6KC-ZY-sZT"; */
+"6KC-ZY-sZT.text" = "Word, sentence, English";
+
+/* Class = "UITabBarItem"; title = "Словарь"; ObjectID = "8hi-xB-f3q"; */
+"8hi-xB-f3q.title" = "Словарь";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "Jbf-Vn-6au"; */
+"Jbf-Vn-6au.title" = "Item";
+
+/* Class = "UITextField"; placeholder = "Слово"; ObjectID = "OKt-bN-IMl"; */
+"OKt-bN-IMl.placeholder" = "Слово";
+
+/* Class = "UINavigationItem"; title = "Словарь"; ObjectID = "PHP-sf-6Ld"; */
+"PHP-sf-6Ld.title" = "Словарь";
+
+/* Class = "UILabel"; text = "|kənˈtɛm(p)t|"; ObjectID = "oav-62-ldT"; */
+"oav-62-ldT.text" = "|kənˈtɛm(p)t|";
